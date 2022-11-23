@@ -1,8 +1,6 @@
 <template>
-  <ul>
-    <li>{{ initialTodo.content }}</li>
-    <button @click="onDeleteBtnClicked">X</button>
-  </ul>
+  <li>{{ initialTodo.content }}</li>
+  <button @click="onDeleteBtnClicked">X</button>
 </template>
 
 <script>
